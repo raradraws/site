@@ -1,4 +1,4 @@
-# rara_draws
+# Site rara_draws
 
 ## Project setup
 ```
