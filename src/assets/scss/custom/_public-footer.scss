@@ -1,0 +1,28 @@
+// Public Style
+
+// Custom
+@import "./variables.scss";
+
+// Public Footer properties
+$pf-width:              100%;
+$pf-padding:            20px;
+$pf-bg:                 #dee2e6;
+$pf-font:               sans-serif;
+$pf-subtitle-color:     #3577b4;
+$pf-title-color:        $blue;
+
+.public-footer {
+  background: $pf-bg;
+  padding: $pf-padding;
+  width: $pf-width;
+  font-family: $pf-font;
+  margin-top: 60px;
+}
+
+.public-ftitle {
+  color: $pf-title-color;
+  text-transform: uppercase;
+}
+.public-fsub {
+  color: $pf-subtitle-color;
+}

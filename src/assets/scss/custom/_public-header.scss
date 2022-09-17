@@ -1,0 +1,35 @@
+// Public Style
+
+// Custom
+@import "./variables.scss";
+
+// Public Header properties
+$ph-top:                0;
+$ph-left:               0;
+$ph-width:              100%;
+$ph-padding:            20px;
+$ph-position:           fixed;
+$ph-subtitle-color:     $yellow;
+$ph-bg:                 rgba(0, 0, 0, .5);
+$ph-title-color:        #FFFF;
+$ph-font:               sans-serif;
+
+.public-header {
+  background: $ph-bg;
+  padding: $ph-padding;
+  position: $ph-position;
+  top: $ph-top;
+  left: $ph-left;
+  width: $ph-width;
+  font-family: $ph-font;
+  z-index: 99;
+}
+
+.public-htitle {
+  color: $ph-title-color;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+.public-hsub {
+  color: $ph-subtitle-color;
+}

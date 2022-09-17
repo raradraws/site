@@ -1,0 +1,81 @@
+// Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
+
+// color-variables
+$blue:    #49A6FC;
+$indigo:  #000463;
+$purple:  #B45BFA;
+$pink:    #FA5BCD;
+$red:     #FA5B5B;
+$orange:  #FF844F;
+$yellow:  #FFE55B;
+$green:   #46FFA6;
+$teal:    #AFFFD9;
+$cyan:    #0dcaf0;
+$gray:    #6c757d;
+// color-variables
+
+$colors: (
+  "blue":       #49A6FC,
+  "indigo":     #4448c2,
+  "purple":     #B45BFA,
+  "pink":       #FA5BCD,
+  "red":        #FA5B5B,
+  "orange":     #FF844F,
+  "yellow":     #FFE55B,
+  "green":      #46FFA6,
+  "teal":       #AFFFD9,
+  "cyan":       #0dcaf0,
+  "gray":       #212529
+);
+
+$primary:       $blue;
+$secondary:     $yellow;
+$success:       $green;
+$info:          $cyan;
+$warning:       $orange;
+$danger:        $red;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "gray":       $gray
+);
+
+// Border Style
+// border-radius-variables
+$border-radius:                 7px !default;
+$border-radius-sm:            .2rem !default;
+$border-radius-lg:            .3rem !default;
+$border-radius-pill:          50rem !default;
+
+// box-shadow-variables
+$box-shadow:                  0px 4px 4px 2px rgba(0, 0, 0, 0.25) !default;
+
+// Customizing button radius
+$btn-border-radius:           2rem !default;
+$btn-border-radius-sm:        $border-radius-sm !default;
+$btn-border-radius-lg:        $border-radius-lg !default;
+
+// card-variables
+$card-box-shadow:                   box-shadow !default;
+$card-border-radius:                $border-radius !default;
+
+.public-home {
+  color: white;
+}
+
+.home-logo {
+  max-width: 50%;
+}
+
+.mr-2 {
+  margin-right: .5rem;
+}
